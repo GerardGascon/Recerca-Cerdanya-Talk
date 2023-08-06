@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,8 +132,8 @@ TextureImporter:
       name: red_ground_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 704
+        x: 1
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -153,8 +153,8 @@ TextureImporter:
       name: red_ground_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 704
+        x: 66
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -174,8 +174,8 @@ TextureImporter:
       name: red_ground_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 704
+        x: 131
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -195,8 +195,8 @@ TextureImporter:
       name: red_ground_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 704
+        x: 196
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -216,8 +216,8 @@ TextureImporter:
       name: red_ground_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 704
+        x: 261
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -237,8 +237,8 @@ TextureImporter:
       name: red_ground_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 704
+        x: 326
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -258,8 +258,8 @@ TextureImporter:
       name: red_ground_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 704
+        x: 391
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -279,8 +279,8 @@ TextureImporter:
       name: red_ground_8
       rect:
         serializedVersion: 2
-        x: 448
-        y: 704
+        x: 456
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -300,8 +300,8 @@ TextureImporter:
       name: red_ground_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 704
+        x: 521
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -321,8 +321,8 @@ TextureImporter:
       name: red_decoration_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 704
+        x: 586
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -342,8 +342,8 @@ TextureImporter:
       name: red_decoration_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 704
+        x: 651
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -363,8 +363,8 @@ TextureImporter:
       name: red_decoration_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 704
+        x: 716
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -384,8 +384,8 @@ TextureImporter:
       name: romb_slot
       rect:
         serializedVersion: 2
-        x: 768
-        y: 704
+        x: 781
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -405,8 +405,8 @@ TextureImporter:
       name: romb_blue
       rect:
         serializedVersion: 2
-        x: 832
-        y: 704
+        x: 846
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -426,8 +426,8 @@ TextureImporter:
       name: romb_yellow
       rect:
         serializedVersion: 2
-        x: 896
-        y: 704
+        x: 911
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -447,8 +447,8 @@ TextureImporter:
       name: romb_red
       rect:
         serializedVersion: 2
-        x: 960
-        y: 704
+        x: 976
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -468,8 +468,8 @@ TextureImporter:
       name: romb_green
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 704
+        x: 1041
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -489,8 +489,8 @@ TextureImporter:
       name: ladder_1
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 704
+        x: 1106
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -510,8 +510,8 @@ TextureImporter:
       name: ladder_2
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 704
+        x: 1171
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -531,8 +531,8 @@ TextureImporter:
       name: ladder_3
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 704
+        x: 1236
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -552,8 +552,8 @@ TextureImporter:
       name: ladder_4
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 704
+        x: 1301
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -573,8 +573,8 @@ TextureImporter:
       name: rope_1
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 704
+        x: 1366
+        y: 716
         width: 64
         height: 64
       alignment: 0
@@ -594,8 +594,8 @@ TextureImporter:
       name: red_ground_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
+        x: 1
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -615,8 +615,8 @@ TextureImporter:
       name: red_ground_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 640
+        x: 66
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -636,8 +636,8 @@ TextureImporter:
       name: red_ground_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 640
+        x: 131
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -657,8 +657,8 @@ TextureImporter:
       name: red_ground_13
       rect:
         serializedVersion: 2
-        x: 192
-        y: 640
+        x: 196
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -678,8 +678,8 @@ TextureImporter:
       name: red_ground_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 640
+        x: 261
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -699,8 +699,8 @@ TextureImporter:
       name: red_ground_15
       rect:
         serializedVersion: 2
-        x: 320
-        y: 640
+        x: 326
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -720,8 +720,8 @@ TextureImporter:
       name: red_ground_16
       rect:
         serializedVersion: 2
-        x: 384
-        y: 640
+        x: 391
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -741,8 +741,8 @@ TextureImporter:
       name: red_ground_17
       rect:
         serializedVersion: 2
-        x: 448
-        y: 640
+        x: 456
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -762,8 +762,8 @@ TextureImporter:
       name: red_ground_18
       rect:
         serializedVersion: 2
-        x: 512
-        y: 640
+        x: 521
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -783,8 +783,8 @@ TextureImporter:
       name: red_decoration_4
       rect:
         serializedVersion: 2
-        x: 576
-        y: 640
+        x: 586
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -804,8 +804,8 @@ TextureImporter:
       name: red_decoration_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 640
+        x: 651
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -825,8 +825,8 @@ TextureImporter:
       name: red_decoration_6
       rect:
         serializedVersion: 2
-        x: 704
-        y: 640
+        x: 716
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -846,8 +846,8 @@ TextureImporter:
       name: diamond_slot
       rect:
         serializedVersion: 2
-        x: 768
-        y: 640
+        x: 781
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -867,8 +867,8 @@ TextureImporter:
       name: diamond_blue
       rect:
         serializedVersion: 2
-        x: 832
-        y: 640
+        x: 846
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -888,8 +888,8 @@ TextureImporter:
       name: diamond_yellow
       rect:
         serializedVersion: 2
-        x: 896
-        y: 640
+        x: 911
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -909,8 +909,8 @@ TextureImporter:
       name: diamond_red
       rect:
         serializedVersion: 2
-        x: 960
-        y: 640
+        x: 976
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -930,8 +930,8 @@ TextureImporter:
       name: diamond_green
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 640
+        x: 1041
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -951,8 +951,8 @@ TextureImporter:
       name: flower_empty
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 640
+        x: 1106
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -972,8 +972,8 @@ TextureImporter:
       name: flower_red
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 640
+        x: 1171
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -993,8 +993,8 @@ TextureImporter:
       name: flower_yellow
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 640
+        x: 1236
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -1014,8 +1014,8 @@ TextureImporter:
       name: flower_blue
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 640
+        x: 1301
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -1035,8 +1035,8 @@ TextureImporter:
       name: rope_2
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 640
+        x: 1366
+        y: 651
         width: 64
         height: 64
       alignment: 0
@@ -1056,8 +1056,8 @@ TextureImporter:
       name: red_ground_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 576
+        x: 1
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1077,8 +1077,8 @@ TextureImporter:
       name: red_ground_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 576
+        x: 66
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1098,8 +1098,8 @@ TextureImporter:
       name: red_ground_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 576
+        x: 131
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1119,8 +1119,8 @@ TextureImporter:
       name: red_ground_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 576
+        x: 196
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1140,8 +1140,8 @@ TextureImporter:
       name: red_ground_23
       rect:
         serializedVersion: 2
-        x: 256
-        y: 576
+        x: 261
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1161,8 +1161,8 @@ TextureImporter:
       name: red_ground_24
       rect:
         serializedVersion: 2
-        x: 320
-        y: 576
+        x: 326
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1182,8 +1182,8 @@ TextureImporter:
       name: red_ground_25
       rect:
         serializedVersion: 2
-        x: 384
-        y: 576
+        x: 391
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1203,8 +1203,8 @@ TextureImporter:
       name: red_ground_26
       rect:
         serializedVersion: 2
-        x: 448
-        y: 576
+        x: 456
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1224,8 +1224,8 @@ TextureImporter:
       name: red_ground_27
       rect:
         serializedVersion: 2
-        x: 512
-        y: 576
+        x: 521
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1245,8 +1245,8 @@ TextureImporter:
       name: yellow_decoration_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 576
+        x: 586
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1266,8 +1266,8 @@ TextureImporter:
       name: yellow_decoration_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 576
+        x: 651
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1287,8 +1287,8 @@ TextureImporter:
       name: yellow_decoration_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 576
+        x: 716
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1308,8 +1308,8 @@ TextureImporter:
       name: star_slot
       rect:
         serializedVersion: 2
-        x: 768
-        y: 576
+        x: 781
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1329,8 +1329,8 @@ TextureImporter:
       name: star_blue
       rect:
         serializedVersion: 2
-        x: 832
-        y: 576
+        x: 846
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1350,8 +1350,8 @@ TextureImporter:
       name: star_yellow
       rect:
         serializedVersion: 2
-        x: 896
-        y: 576
+        x: 911
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1371,8 +1371,8 @@ TextureImporter:
       name: star_red
       rect:
         serializedVersion: 2
-        x: 960
-        y: 576
+        x: 976
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1392,8 +1392,8 @@ TextureImporter:
       name: star_green
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 576
+        x: 1041
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1413,8 +1413,8 @@ TextureImporter:
       name: flower_1
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 576
+        x: 1106
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1434,8 +1434,8 @@ TextureImporter:
       name: flower_2
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 576
+        x: 1171
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1455,8 +1455,8 @@ TextureImporter:
       name: flower_3
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 576
+        x: 1236
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1476,8 +1476,8 @@ TextureImporter:
       name: flower_4
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 576
+        x: 1301
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1497,8 +1497,8 @@ TextureImporter:
       name: rope_3
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 576
+        x: 1366
+        y: 586
         width: 64
         height: 64
       alignment: 0
@@ -1518,8 +1518,8 @@ TextureImporter:
       name: yellow_ground_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
+        x: 1
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1539,8 +1539,8 @@ TextureImporter:
       name: yellow_ground_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 512
+        x: 66
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1560,8 +1560,8 @@ TextureImporter:
       name: yellow_ground_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
+        x: 131
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1581,8 +1581,8 @@ TextureImporter:
       name: yellow_ground_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 512
+        x: 196
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1602,8 +1602,8 @@ TextureImporter:
       name: yellow_ground_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
+        x: 261
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1623,8 +1623,8 @@ TextureImporter:
       name: yellow_ground_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 512
+        x: 326
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1644,8 +1644,8 @@ TextureImporter:
       name: yellow_ground_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
+        x: 391
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1665,8 +1665,8 @@ TextureImporter:
       name: yellow_ground_8
       rect:
         serializedVersion: 2
-        x: 448
-        y: 512
+        x: 456
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1686,8 +1686,8 @@ TextureImporter:
       name: yellow_ground_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
+        x: 521
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1707,8 +1707,8 @@ TextureImporter:
       name: yellow_decoration_4
       rect:
         serializedVersion: 2
-        x: 576
-        y: 512
+        x: 586
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1728,8 +1728,8 @@ TextureImporter:
       name: yellow_decoration_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 512
+        x: 651
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1749,8 +1749,8 @@ TextureImporter:
       name: yellow_decoration_6
       rect:
         serializedVersion: 2
-        x: 704
-        y: 512
+        x: 716
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1770,8 +1770,8 @@ TextureImporter:
       name: puzzle_slot
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
+        x: 781
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1791,8 +1791,8 @@ TextureImporter:
       name: key_red
       rect:
         serializedVersion: 2
-        x: 832
-        y: 512
+        x: 846
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1812,8 +1812,8 @@ TextureImporter:
       name: puzzle_red
       rect:
         serializedVersion: 2
-        x: 896
-        y: 512
+        x: 911
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1833,8 +1833,8 @@ TextureImporter:
       name: disk_red
       rect:
         serializedVersion: 2
-        x: 960
-        y: 512
+        x: 976
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1854,8 +1854,8 @@ TextureImporter:
       name: disk_slot_1
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
+        x: 1041
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1875,8 +1875,8 @@ TextureImporter:
       name: flower_5
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 512
+        x: 1106
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1896,8 +1896,8 @@ TextureImporter:
       name: flower_6
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 512
+        x: 1171
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1917,8 +1917,8 @@ TextureImporter:
       name: flower_7
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 512
+        x: 1236
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1938,8 +1938,8 @@ TextureImporter:
       name: flower_8
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 512
+        x: 1301
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1959,8 +1959,8 @@ TextureImporter:
       name: flower_9
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 512
+        x: 1366
+        y: 521
         width: 64
         height: 64
       alignment: 0
@@ -1980,8 +1980,8 @@ TextureImporter:
       name: yellow_ground_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 448
+        x: 1
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2001,8 +2001,8 @@ TextureImporter:
       name: yellow_ground_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
+        x: 66
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2022,8 +2022,8 @@ TextureImporter:
       name: yellow_ground_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 448
+        x: 131
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2043,8 +2043,8 @@ TextureImporter:
       name: yellow_ground_13
       rect:
         serializedVersion: 2
-        x: 192
-        y: 448
+        x: 196
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2064,8 +2064,8 @@ TextureImporter:
       name: yellow_ground_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 448
+        x: 261
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2085,8 +2085,8 @@ TextureImporter:
       name: yellow_ground_15
       rect:
         serializedVersion: 2
-        x: 320
-        y: 448
+        x: 326
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2106,8 +2106,8 @@ TextureImporter:
       name: yellow_ground_16
       rect:
         serializedVersion: 2
-        x: 384
-        y: 448
+        x: 391
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2127,8 +2127,8 @@ TextureImporter:
       name: yellow_ground_17
       rect:
         serializedVersion: 2
-        x: 448
-        y: 448
+        x: 456
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2148,8 +2148,8 @@ TextureImporter:
       name: yellow_ground_18
       rect:
         serializedVersion: 2
-        x: 512
-        y: 448
+        x: 521
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2169,8 +2169,8 @@ TextureImporter:
       name: blue_decoration_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 448
+        x: 586
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2190,8 +2190,8 @@ TextureImporter:
       name: blue_decoration_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 448
+        x: 651
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2211,8 +2211,8 @@ TextureImporter:
       name: blue_decoration_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 448
+        x: 716
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2232,8 +2232,8 @@ TextureImporter:
       name: key_slot
       rect:
         serializedVersion: 2
-        x: 768
-        y: 448
+        x: 781
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2253,8 +2253,8 @@ TextureImporter:
       name: key_green
       rect:
         serializedVersion: 2
-        x: 832
-        y: 448
+        x: 846
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2274,8 +2274,8 @@ TextureImporter:
       name: puzzle_green
       rect:
         serializedVersion: 2
-        x: 896
-        y: 448
+        x: 911
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2295,8 +2295,8 @@ TextureImporter:
       name: disk_green
       rect:
         serializedVersion: 2
-        x: 960
-        y: 448
+        x: 976
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2316,8 +2316,8 @@ TextureImporter:
       name: disk_slot_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 448
+        x: 1041
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2337,8 +2337,8 @@ TextureImporter:
       name: flower_10
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 448
+        x: 1106
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2358,8 +2358,8 @@ TextureImporter:
       name: flower_11
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 448
+        x: 1171
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2379,8 +2379,8 @@ TextureImporter:
       name: flower_12
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 448
+        x: 1236
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2400,8 +2400,8 @@ TextureImporter:
       name: flower_13
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 448
+        x: 1366
+        y: 456
         width: 64
         height: 64
       alignment: 0
@@ -2421,8 +2421,8 @@ TextureImporter:
       name: yellow_ground_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 1
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2442,8 +2442,8 @@ TextureImporter:
       name: yellow_ground_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 384
+        x: 66
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2463,8 +2463,8 @@ TextureImporter:
       name: yellow_ground_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
+        x: 131
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2484,8 +2484,8 @@ TextureImporter:
       name: yellow_ground_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
+        x: 196
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2505,8 +2505,8 @@ TextureImporter:
       name: yellow_ground_23
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
+        x: 261
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2526,8 +2526,8 @@ TextureImporter:
       name: yellow_ground_24
       rect:
         serializedVersion: 2
-        x: 320
-        y: 384
+        x: 326
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2547,8 +2547,8 @@ TextureImporter:
       name: yellow_ground_25
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
+        x: 391
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2568,8 +2568,8 @@ TextureImporter:
       name: yellow_ground_26
       rect:
         serializedVersion: 2
-        x: 448
-        y: 384
+        x: 456
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2589,8 +2589,8 @@ TextureImporter:
       name: yellow_ground_27
       rect:
         serializedVersion: 2
-        x: 512
-        y: 384
+        x: 521
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2610,8 +2610,8 @@ TextureImporter:
       name: blue_decoration_4
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
+        x: 586
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2631,8 +2631,8 @@ TextureImporter:
       name: blue_decoration_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 384
+        x: 651
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2652,8 +2652,8 @@ TextureImporter:
       name: blue_decoration_6
       rect:
         serializedVersion: 2
-        x: 704
-        y: 384
+        x: 716
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2673,8 +2673,8 @@ TextureImporter:
       name: block_green_1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 384
+        x: 781
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2694,8 +2694,8 @@ TextureImporter:
       name: block_green_2
       rect:
         serializedVersion: 2
-        x: 832
-        y: 384
+        x: 846
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2715,8 +2715,8 @@ TextureImporter:
       name: block_green_3
       rect:
         serializedVersion: 2
-        x: 896
-        y: 384
+        x: 911
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2736,8 +2736,8 @@ TextureImporter:
       name: block_green_4
       rect:
         serializedVersion: 2
-        x: 960
-        y: 384
+        x: 976
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2757,8 +2757,8 @@ TextureImporter:
       name: block_green_5
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 384
+        x: 1041
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2778,8 +2778,8 @@ TextureImporter:
       name: block_green_6
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 384
+        x: 1106
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2799,8 +2799,8 @@ TextureImporter:
       name: block_green_7
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
+        x: 1171
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2820,8 +2820,8 @@ TextureImporter:
       name: door_open_1
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 384
+        x: 1236
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2841,8 +2841,8 @@ TextureImporter:
       name: door_green_1
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
+        x: 1301
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2862,8 +2862,8 @@ TextureImporter:
       name: door_red_1
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 384
+        x: 1366
+        y: 391
         width: 64
         height: 64
       alignment: 0
@@ -2883,8 +2883,8 @@ TextureImporter:
       name: blue_ground_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 1
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -2904,8 +2904,8 @@ TextureImporter:
       name: blue_ground_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
+        x: 66
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -2925,8 +2925,8 @@ TextureImporter:
       name: blue_ground_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
+        x: 131
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -2946,8 +2946,8 @@ TextureImporter:
       name: blue_ground_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
+        x: 196
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -2967,8 +2967,8 @@ TextureImporter:
       name: blue_ground_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
+        x: 261
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -2988,8 +2988,8 @@ TextureImporter:
       name: blue_ground_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
+        x: 326
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3009,8 +3009,8 @@ TextureImporter:
       name: blue_ground_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
+        x: 391
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3030,8 +3030,8 @@ TextureImporter:
       name: blue_ground_8
       rect:
         serializedVersion: 2
-        x: 448
-        y: 320
+        x: 456
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3051,8 +3051,8 @@ TextureImporter:
       name: blue_ground_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 320
+        x: 521
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3072,8 +3072,8 @@ TextureImporter:
       name: green_decoration_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 320
+        x: 586
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3093,8 +3093,8 @@ TextureImporter:
       name: green_decoration_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 320
+        x: 651
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3114,8 +3114,8 @@ TextureImporter:
       name: green_decoration_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 320
+        x: 716
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3135,8 +3135,8 @@ TextureImporter:
       name: block_red_1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 320
+        x: 781
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3156,8 +3156,8 @@ TextureImporter:
       name: block_red_2
       rect:
         serializedVersion: 2
-        x: 832
-        y: 320
+        x: 846
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3177,8 +3177,8 @@ TextureImporter:
       name: block_red_3
       rect:
         serializedVersion: 2
-        x: 896
-        y: 320
+        x: 911
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3198,8 +3198,8 @@ TextureImporter:
       name: block_red_4
       rect:
         serializedVersion: 2
-        x: 960
-        y: 320
+        x: 976
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3219,8 +3219,8 @@ TextureImporter:
       name: block_red_5
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 320
+        x: 1041
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3240,8 +3240,8 @@ TextureImporter:
       name: block_red_6
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 320
+        x: 1106
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3261,8 +3261,8 @@ TextureImporter:
       name: block_red_7
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 320
+        x: 1171
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3282,8 +3282,8 @@ TextureImporter:
       name: door_open_2
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 320
+        x: 1236
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3303,8 +3303,8 @@ TextureImporter:
       name: door_green_2
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 320
+        x: 1301
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3324,8 +3324,8 @@ TextureImporter:
       name: door_red_2
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 320
+        x: 1366
+        y: 326
         width: 64
         height: 64
       alignment: 0
@@ -3345,8 +3345,8 @@ TextureImporter:
       name: blue_ground_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 1
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3366,8 +3366,8 @@ TextureImporter:
       name: blue_ground_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
+        x: 66
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3387,8 +3387,8 @@ TextureImporter:
       name: blue_ground_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 131
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3408,8 +3408,8 @@ TextureImporter:
       name: blue_ground_13
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
+        x: 196
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3429,8 +3429,8 @@ TextureImporter:
       name: blue_ground_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 261
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3450,8 +3450,8 @@ TextureImporter:
       name: blue_ground_15
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
+        x: 326
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3471,8 +3471,8 @@ TextureImporter:
       name: blue_ground_16
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
+        x: 391
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3492,8 +3492,8 @@ TextureImporter:
       name: blue_ground_17
       rect:
         serializedVersion: 2
-        x: 448
-        y: 256
+        x: 456
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3513,8 +3513,8 @@ TextureImporter:
       name: blue_ground_18
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
+        x: 521
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3534,8 +3534,8 @@ TextureImporter:
       name: green_decoration_4
       rect:
         serializedVersion: 2
-        x: 576
-        y: 256
+        x: 586
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3555,8 +3555,8 @@ TextureImporter:
       name: green_decoration_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
+        x: 651
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3576,8 +3576,8 @@ TextureImporter:
       name: green_decoration_6
       rect:
         serializedVersion: 2
-        x: 704
-        y: 256
+        x: 716
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3597,8 +3597,8 @@ TextureImporter:
       name: button_red_1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
+        x: 781
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3618,8 +3618,8 @@ TextureImporter:
       name: button_red_2
       rect:
         serializedVersion: 2
-        x: 832
-        y: 256
+        x: 846
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3639,8 +3639,8 @@ TextureImporter:
       name: button_green_1
       rect:
         serializedVersion: 2
-        x: 896
-        y: 256
+        x: 911
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3660,8 +3660,8 @@ TextureImporter:
       name: button_green_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 256
+        x: 976
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3681,8 +3681,8 @@ TextureImporter:
       name: switch_red_1
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
+        x: 1041
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3702,8 +3702,8 @@ TextureImporter:
       name: switch_red_2
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 256
+        x: 1106
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3723,8 +3723,8 @@ TextureImporter:
       name: switch_green_1
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 256
+        x: 1171
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3744,8 +3744,8 @@ TextureImporter:
       name: switch_green_2
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 256
+        x: 1236
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3765,8 +3765,8 @@ TextureImporter:
       name: door_green_3
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
+        x: 1301
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3786,8 +3786,8 @@ TextureImporter:
       name: door_red_3
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 256
+        x: 1366
+        y: 261
         width: 64
         height: 64
       alignment: 0
@@ -3807,8 +3807,8 @@ TextureImporter:
       name: blue_ground_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 1
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3828,8 +3828,8 @@ TextureImporter:
       name: blue_ground_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 66
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3849,8 +3849,8 @@ TextureImporter:
       name: blue_ground_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 131
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3870,8 +3870,8 @@ TextureImporter:
       name: blue_ground_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 196
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3891,8 +3891,8 @@ TextureImporter:
       name: blue_ground_23
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
+        x: 261
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3912,8 +3912,8 @@ TextureImporter:
       name: blue_ground_24
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
+        x: 326
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3933,8 +3933,8 @@ TextureImporter:
       name: blue_ground_25
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
+        x: 391
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3954,8 +3954,8 @@ TextureImporter:
       name: blue_ground_26
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
+        x: 456
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3975,8 +3975,8 @@ TextureImporter:
       name: blue_ground_27
       rect:
         serializedVersion: 2
-        x: 512
-        y: 192
+        x: 521
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -3996,8 +3996,8 @@ TextureImporter:
       name: fence_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 192
+        x: 586
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4017,8 +4017,8 @@ TextureImporter:
       name: fence_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 192
+        x: 651
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4038,8 +4038,8 @@ TextureImporter:
       name: fence_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 192
+        x: 716
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4059,8 +4059,8 @@ TextureImporter:
       name: flag_green_1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 192
+        x: 781
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4080,8 +4080,8 @@ TextureImporter:
       name: flag_green_2
       rect:
         serializedVersion: 2
-        x: 832
-        y: 192
+        x: 846
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4101,8 +4101,8 @@ TextureImporter:
       name: flag_red_1
       rect:
         serializedVersion: 2
-        x: 896
-        y: 192
+        x: 911
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4122,8 +4122,8 @@ TextureImporter:
       name: flag_red_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 192
+        x: 976
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4143,8 +4143,8 @@ TextureImporter:
       name: block_obstacle_brown_1
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 192
+        x: 1041
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4164,8 +4164,8 @@ TextureImporter:
       name: block_obstacle_brown_3
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 192
+        x: 1106
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4185,8 +4185,8 @@ TextureImporter:
       name: block_obstacle_red_1
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 192
+        x: 1171
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4206,8 +4206,8 @@ TextureImporter:
       name: block_obstacle_red_2
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 192
+        x: 1236
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4227,8 +4227,8 @@ TextureImporter:
       name: block_obstacle_red_3
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 192
+        x: 1301
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4248,8 +4248,8 @@ TextureImporter:
       name: block_obstacle_red_4
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 192
+        x: 1366
+        y: 196
         width: 64
         height: 64
       alignment: 0
@@ -4269,8 +4269,8 @@ TextureImporter:
       name: green_ground_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 1
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4290,8 +4290,8 @@ TextureImporter:
       name: green_ground_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 66
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4311,8 +4311,8 @@ TextureImporter:
       name: green_ground_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 131
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4332,8 +4332,8 @@ TextureImporter:
       name: green_ground_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 196
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4353,8 +4353,8 @@ TextureImporter:
       name: green_ground_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 261
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4374,8 +4374,8 @@ TextureImporter:
       name: green_ground_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
+        x: 326
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4395,8 +4395,8 @@ TextureImporter:
       name: green_ground_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
+        x: 391
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4416,8 +4416,8 @@ TextureImporter:
       name: green_ground_8
       rect:
         serializedVersion: 2
-        x: 448
-        y: 128
+        x: 456
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4437,8 +4437,8 @@ TextureImporter:
       name: green_ground_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
+        x: 521
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4458,8 +4458,8 @@ TextureImporter:
       name: fence_4
       rect:
         serializedVersion: 2
-        x: 576
-        y: 128
+        x: 586
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4479,8 +4479,8 @@ TextureImporter:
       name: fence_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
+        x: 651
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4500,8 +4500,8 @@ TextureImporter:
       name: fence_6
       rect:
         serializedVersion: 2
-        x: 704
-        y: 128
+        x: 716
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4521,8 +4521,8 @@ TextureImporter:
       name: spikes_1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 128
+        x: 781
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4542,8 +4542,8 @@ TextureImporter:
       name: spikes_2
       rect:
         serializedVersion: 2
-        x: 832
-        y: 128
+        x: 846
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4563,8 +4563,8 @@ TextureImporter:
       name: pressure_plate_1
       rect:
         serializedVersion: 2
-        x: 896
-        y: 128
+        x: 911
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4584,8 +4584,8 @@ TextureImporter:
       name: pressure_plate_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 128
+        x: 976
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4605,8 +4605,8 @@ TextureImporter:
       name: block_obstacle_brown_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 128
+        x: 1041
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4626,8 +4626,8 @@ TextureImporter:
       name: block_obstacle_brown_4
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 128
+        x: 1106
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4647,8 +4647,8 @@ TextureImporter:
       name: block_obstacle_green_1
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 128
+        x: 1171
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4668,8 +4668,8 @@ TextureImporter:
       name: block_obstacle_green_2
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 128
+        x: 1236
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4689,8 +4689,8 @@ TextureImporter:
       name: block_obstacle_green_3
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 128
+        x: 1301
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4710,8 +4710,8 @@ TextureImporter:
       name: block_obstacle_green_4
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 128
+        x: 1366
+        y: 131
         width: 64
         height: 64
       alignment: 0
@@ -4731,8 +4731,8 @@ TextureImporter:
       name: green_ground_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 1
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4752,8 +4752,8 @@ TextureImporter:
       name: green_ground_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 66
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4773,8 +4773,8 @@ TextureImporter:
       name: green_ground_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 131
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4794,8 +4794,8 @@ TextureImporter:
       name: green_ground_13
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
+        x: 196
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4815,8 +4815,8 @@ TextureImporter:
       name: green_ground_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
+        x: 261
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4836,8 +4836,8 @@ TextureImporter:
       name: green_ground_15
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
+        x: 326
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4857,8 +4857,8 @@ TextureImporter:
       name: green_ground_16
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
+        x: 391
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4878,8 +4878,8 @@ TextureImporter:
       name: green_ground_17
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
+        x: 456
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4899,8 +4899,8 @@ TextureImporter:
       name: green_ground_18
       rect:
         serializedVersion: 2
-        x: 512
-        y: 64
+        x: 521
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4920,8 +4920,8 @@ TextureImporter:
       name: lever_green_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
+        x: 586
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4941,8 +4941,8 @@ TextureImporter:
       name: lever_green_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 64
+        x: 651
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4962,8 +4962,8 @@ TextureImporter:
       name: lever_green_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 64
+        x: 716
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -4983,8 +4983,8 @@ TextureImporter:
       name: water_blue_1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 64
+        x: 781
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5004,8 +5004,8 @@ TextureImporter:
       name: water_green_1
       rect:
         serializedVersion: 2
-        x: 832
-        y: 64
+        x: 846
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5025,8 +5025,8 @@ TextureImporter:
       name: water_red_1
       rect:
         serializedVersion: 2
-        x: 896
-        y: 64
+        x: 911
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5046,8 +5046,8 @@ TextureImporter:
       name: water_brown_1
       rect:
         serializedVersion: 2
-        x: 960
-        y: 64
+        x: 976
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5067,8 +5067,8 @@ TextureImporter:
       name: sign_1
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 64
+        x: 1041
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5088,8 +5088,8 @@ TextureImporter:
       name: sign_2
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 64
+        x: 1106
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5109,8 +5109,8 @@ TextureImporter:
       name: sign_3
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 64
+        x: 1171
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5130,8 +5130,8 @@ TextureImporter:
       name: sign_4
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 64
+        x: 1236
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5151,8 +5151,8 @@ TextureImporter:
       name: sign_5
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 64
+        x: 1301
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5172,8 +5172,8 @@ TextureImporter:
       name: sign_6
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 64
+        x: 1366
+        y: 66
         width: 64
         height: 64
       alignment: 0
@@ -5193,8 +5193,8 @@ TextureImporter:
       name: green_ground_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5214,8 +5214,8 @@ TextureImporter:
       name: green_ground_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 66
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5235,8 +5235,8 @@ TextureImporter:
       name: green_ground_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 131
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5256,8 +5256,8 @@ TextureImporter:
       name: green_ground_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
+        x: 196
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5277,8 +5277,8 @@ TextureImporter:
       name: green_ground_23
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 261
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5298,8 +5298,8 @@ TextureImporter:
       name: green_ground_24
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
+        x: 326
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5319,8 +5319,8 @@ TextureImporter:
       name: green_ground_25
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
+        x: 391
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5340,8 +5340,8 @@ TextureImporter:
       name: green_ground_26
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
+        x: 456
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5361,8 +5361,8 @@ TextureImporter:
       name: green_ground_27
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
+        x: 521
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5382,8 +5382,8 @@ TextureImporter:
       name: lever_red_1
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
+        x: 586
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5403,8 +5403,8 @@ TextureImporter:
       name: lever_red_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
+        x: 651
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5424,8 +5424,8 @@ TextureImporter:
       name: lever_red_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 0
+        x: 716
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5445,8 +5445,8 @@ TextureImporter:
       name: water_blue_2
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
+        x: 781
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5466,8 +5466,8 @@ TextureImporter:
       name: water_green_2
       rect:
         serializedVersion: 2
-        x: 832
-        y: 0
+        x: 846
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5487,8 +5487,8 @@ TextureImporter:
       name: water_red_2
       rect:
         serializedVersion: 2
-        x: 896
-        y: 0
+        x: 911
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5508,8 +5508,8 @@ TextureImporter:
       name: water_brown_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 0
+        x: 976
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5529,8 +5529,8 @@ TextureImporter:
       name: sign_7
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
+        x: 1041
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5550,8 +5550,8 @@ TextureImporter:
       name: sign_8
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 0
+        x: 1106
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5571,8 +5571,8 @@ TextureImporter:
       name: sign_9
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 0
+        x: 1171
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5592,8 +5592,8 @@ TextureImporter:
       name: sign_10
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 0
+        x: 1236
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5613,8 +5613,8 @@ TextureImporter:
       name: sign_11
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 0
+        x: 1301
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5634,8 +5634,8 @@ TextureImporter:
       name: sign_12
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 0
+        x: 1366
+        y: 1
         width: 64
         height: 64
       alignment: 0
@@ -5696,11 +5696,11 @@ TextureImporter:
       disk_red: -1936060346
       disk_slot_2: -532763020
       fence_6: 143626316
-      sign_10: 868298178
+      flower_5: 1083343583
       disk_green: 1241727314
       sign_5: 1123366268
-      flower_5: 1083343583
       flower_7: 288148133
+      sign_10: 868298178
       green_decoration_5: -413386474
       red_ground_15: -116795754
       blue_ground_26: -261985649
@@ -5735,11 +5735,11 @@ TextureImporter:
       yellow_ground_10: 1383091950
       block_obstacle_green_4: -1874060851
       blue_ground_23: 1418611188
-      green_ground_25: -1492264563
       sign_7: 1328513268
       water_blue_1: -2035456613
       block_obstacle_brown_1: -2003506268
       puzzle_green: -1670809926
+      green_ground_25: -1492264563
       red_ground_20: -604048434
       blue_ground_6: 227144749
       key_slot: 1118512450
@@ -5797,15 +5797,14 @@ TextureImporter:
       sign_2: -1285108841
       yellow_ground_21: 666073280
       yellow_decoration_3: -365124253
-      disk_slot_1: -718506976
+      flower_red: -2048656574
       blue_decoration_3: 289329781
       blue_ground_15: -603891000
-      red_ground_7: 1040835830
-      flower_red: -2048656574
+      disk_slot_1: -718506976
+      flower_9: -1726568145
       green_ground_11: 1714328896
       yellow_ground_11: 1223207779
       blue_ground_27: 869911892
-      flower_9: -1726568145
       block_red_2: -40748958
       blue_decoration_5: 214021316
       red_ground_17: -1777487688
@@ -5813,6 +5812,7 @@ TextureImporter:
       block_red_4: -2112484357
       sign_8: -298366246
       flower_empty: 267659484
+      red_ground_7: 1040835830
       lever_red_1: -1983879961
       flower_blue: 845873079
       blue_ground_21: -329128370
