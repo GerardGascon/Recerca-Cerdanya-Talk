@@ -61,3 +61,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# DOTween Pro is a paid asset that cannot be on a repository
+[Aa]ssets/Plugins/Demigiant*
