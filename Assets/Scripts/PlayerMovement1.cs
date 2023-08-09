@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement1 : MonoBehaviour {
 
+    public float deathForce = 8f;
     [SerializeField] float speed = 5f;
     [SerializeField] float jumpForce = 10f;
     
@@ -19,20 +20,22 @@ public class PlayerMovement1 : MonoBehaviour {
     bool _grounded;
 
     int _facingDirection = 1;
-    
-    Rigidbody2D _rb;
+
+    public Rigidbody2D Rb { get; private set; }
+
     PlayerInput _playerInput;
 
     [Header("Animations")] 
     [SerializeField] Animator animator;
+    public Animator Animator => animator;
 
-    static readonly int Jump1 = Animator.StringToHash("Jump");
+    public static readonly int Jump1 = Animator.StringToHash("Jump");
     static readonly int XVelocity = Animator.StringToHash("xVelocity");
     static readonly int YVelocity = Animator.StringToHash("yVelocity");
     static readonly int Grounded = Animator.StringToHash("Grounded");
     
     void Awake() {
-        _rb = GetComponent<Rigidbody2D>();
+        Rb = GetComponent<Rigidbody2D>();
         
         _playerInput = new PlayerInput();
         
@@ -47,7 +50,7 @@ public class PlayerMovement1 : MonoBehaviour {
 
     void Jump(InputAction.CallbackContext obj) {
         if (!_grounded) return;
-        _rb.velocity = new Vector2(_rb.velocity.x, jumpForce);
+        Rb.velocity = new Vector2(Rb.velocity.x, jumpForce);
         animator.SetTrigger(Jump1);
     }
 
@@ -73,13 +76,13 @@ public class PlayerMovement1 : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         animator.SetFloat(XVelocity, Mathf.Abs(_horizontalInput * speed));
-        animator.SetFloat(YVelocity, _rb.velocity.y);
+        animator.SetFloat(YVelocity, Rb.velocity.y);
         animator.SetBool(Grounded, _grounded);
     }
 
     void FixedUpdate() {
         _grounded = Physics2D.OverlapBox(transform.position, feetSize, 0, groundMask);
-        _rb.velocity = new Vector2(_horizontalInput * speed, _rb.velocity.y);
+        Rb.velocity = new Vector2(_horizontalInput * speed, Rb.velocity.y);
     }
 
     void OnDrawGizmos() {
