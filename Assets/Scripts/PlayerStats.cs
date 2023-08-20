@@ -9,6 +9,7 @@ public abstract class PlayerStats : MonoBehaviour{
 	[HideInInspector] public float jumpCancellationMultiplier = .5f;
 	[HideInInspector] public float coyoteTime = .1f;
 	[HideInInspector] public float bufferTime = .1f;
+	[HideInInspector] public int maxBullets = 2;
 	
 	public Rigidbody2D Rb { get; private set; }
 
@@ -32,5 +33,6 @@ public abstract class PlayerStats : MonoBehaviour{
 		Rb.gravityScale = PlayerPrefs.GetFloat(nameof(Rb.gravityScale), Rb.gravityScale);
 		coyoteTime = PlayerPrefs.GetFloat(nameof(coyoteTime), coyoteTime);
 		bufferTime = PlayerPrefs.GetFloat(nameof(bufferTime), bufferTime);
+		maxBullets = Mathf.RoundToInt(PlayerPrefs.GetFloat(nameof(maxBullets), maxBullets));
 	}
 }

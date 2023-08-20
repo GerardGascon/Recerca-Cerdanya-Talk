@@ -21,6 +21,10 @@ public class BalanceCanvas : MonoBehaviour {
 	[SerializeField] Slider gravitySlider;
 	[SerializeField] Slider coyoteTime;
 	[SerializeField] Slider bufferTime;
+	[SerializeField] Slider bulletSpeed;
+	[SerializeField] Slider maxYSpeed;
+	[SerializeField] Slider maxBounces;
+	[SerializeField] Slider maxBullets;
 	
 	// Start is called before the first frame update
 	void Awake() {
@@ -37,6 +41,10 @@ public class BalanceCanvas : MonoBehaviour {
 		SetupSlider(gravitySlider, nameof(PlayerStats.Rb.gravityScale));
 		SetupSlider(coyoteTime, nameof(PlayerStats.coyoteTime));
 		SetupSlider(bufferTime, nameof(PlayerStats.bufferTime));
+		SetupSlider(bulletSpeed, nameof(BulletStats.bulletSpeed));
+		SetupSlider(maxYSpeed, nameof(BulletStats.maxYSpeed));
+		SetupSlider(maxBounces, nameof(BulletStats.maxBounces));
+		SetupSlider(maxBullets, nameof(PlayerStats.maxBullets));
 	}
 
 	void SliderChangedCallback(float arg0) => sliderChangedCallback?.Invoke();

@@ -125,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4647122662348553279}
   - component: {fileID: 4647122662348553278}
-  - component: {fileID: 7918385707949567090}
+  - component: {fileID: 4243596449613196213}
   m_Layer: 0
   m_Name: WeakPoint
   m_TagString: Untagged
@@ -174,7 +174,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.43517184, y: 0.19248903}
   m_EdgeRadius: 0
---- !u!114 &7918385707949567090
+--- !u!114 &4243596449613196213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4647122662348553276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07622b149a150ff4c9470ed89e7347c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c59ba55a285218468f7cb423b1aa267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4647122662407435988
@@ -229,10 +229,10 @@ GameObject:
   - component: {fileID: 4647122663633710288}
   - component: {fileID: 4647122663633710293}
   - component: {fileID: 4647122663633710290}
-  - component: {fileID: 38610104645181056}
+  - component: {fileID: 3929963740025408476}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -323,7 +323,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &38610104645181056
+--- !u!114 &3929963740025408476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4647122663633710289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f8ff3b239fcea04b91b8c49085c0cdb, type: 3}
+  m_Script: {fileID: 11500000, guid: a59820a761d4477468f1cc9da75eca3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5

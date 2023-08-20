@@ -3,9 +3,7 @@ using UnityEngine.InputSystem;
 
 namespace Level8 {
     public class PlayerMovement8 : PlayerStats {
-
-        [SerializeField] PlayerFollower8 playerFollower8;
-        
+    
         [Header("Shooting")]
         [SerializeField] Bullet8 bullet;
         [SerializeField] Transform shootingPos;
@@ -88,8 +86,6 @@ namespace Level8 {
 
             _currentCoyoteTime -= Time.deltaTime;
             _currentBufferTime -= Time.deltaTime;
-            
-            playerFollower8.SetPosition(transform.position, _grounded);
         }
 
         void FixedUpdate() {
