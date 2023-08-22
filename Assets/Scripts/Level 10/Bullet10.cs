@@ -25,10 +25,13 @@ namespace Level10 {
 
         void OnCollisionEnter2D(Collision2D other) {
             --_currentBounces;
-            if (_currentBounces != 0 && !other.gameObject.CompareTag("Enemy")) return;
+            if (_currentBounces != 0 || other.gameObject.CompareTag("Enemy")) return;
             
-            --PlayerMovement10.instance.Bullets;
             Destroy(gameObject);
+        }
+        
+        void OnDestroy() {
+            --PlayerMovement10.instance.Bullets;
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Level5 {
         }
 
         void OnCollisionEnter2D(Collision2D other) {
-            Destroy(gameObject);
+            if(!other.gameObject.CompareTag("Enemy")) Destroy(gameObject);
         }
     }
 }

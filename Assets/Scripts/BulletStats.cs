@@ -8,9 +8,11 @@ public abstract class BulletStats : MonoBehaviour{
 	[HideInInspector] public int maxBounces = 3;
 
 	protected Rigidbody2D Rb { get; private set; }
+	protected SpriteRenderer Sprite { get; private set; }
 
 	protected virtual void Start() {
 		Rb = GetComponent<Rigidbody2D>();
+		Sprite = GetComponent<SpriteRenderer>();
 		
 		BalanceCanvas.instance.sliderChangedCallback += RefreshStats;
 		RefreshStats();

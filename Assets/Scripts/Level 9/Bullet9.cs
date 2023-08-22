@@ -24,7 +24,7 @@ namespace Level9 {
 
         void OnCollisionEnter2D(Collision2D other) {
             --_currentBounces;
-            if (_currentBounces != 0 && !other.gameObject.CompareTag("Enemy")) return;
+            if (_currentBounces != 0 || other.gameObject.CompareTag("Enemy")) return;
             
             Destroy(gameObject);
         }

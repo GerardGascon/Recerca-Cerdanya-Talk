@@ -10,11 +10,13 @@ namespace Level8 {
 		}
 
 		void OnTriggerEnter2D(Collider2D other) {
-			if (!other.CompareTag("Player")) return;
+			if (!other.CompareTag("Player") && !other.CompareTag("Bullet")) return;
 			PlayerMovement8 player = other.GetComponent<PlayerMovement8>();
 
-			player.Rb.velocity = new Vector2(player.Rb.velocity.x, player.deathForce);
-			player.Animator.SetTrigger(PlayerMovement8.Jump1);
+			if(player) player.Rb.velocity = new Vector2(player.Rb.velocity.x, player.deathForce);
+			if(player) player.Animator.SetTrigger(PlayerMovement8.Jump1);
+			
+			if(!player) Destroy(other.gameObject);
 			Destroy(_enemy.gameObject);
 		}
 	}
