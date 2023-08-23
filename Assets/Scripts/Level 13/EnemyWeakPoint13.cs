@@ -21,6 +21,7 @@ namespace Level13 {
 			if(!player) Destroy(other.gameObject);
 			
 			_enemy.DoKill();
+			Destroy(gameObject);
 		}
 	}
 }

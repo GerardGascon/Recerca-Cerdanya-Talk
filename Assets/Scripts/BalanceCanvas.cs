@@ -25,6 +25,7 @@ public class BalanceCanvas : MonoBehaviour {
 	[SerializeField] Slider maxYSpeed;
 	[SerializeField] Slider maxBounces;
 	[SerializeField] Slider maxBullets;
+	[SerializeField] Slider throwForce;
 	
 	// Start is called before the first frame update
 	void Awake() {
@@ -45,6 +46,7 @@ public class BalanceCanvas : MonoBehaviour {
 		SetupSlider(maxYSpeed, nameof(BulletStats.maxYSpeed));
 		SetupSlider(maxBounces, nameof(BulletStats.maxBounces));
 		SetupSlider(maxBullets, nameof(PlayerStats.maxBullets));
+		SetupSlider(throwForce, nameof(EnemyStats.throwForce));
 	}
 
 	void SliderChangedCallback(float arg0) => sliderChangedCallback?.Invoke();
