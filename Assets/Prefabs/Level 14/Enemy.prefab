@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4647122662011115857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FlippingPivotLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4647122662175001818}
   - component: {fileID: 4647122662175001821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 4647122662348553279}
   - component: {fileID: 4647122662348553278}
   - component: {fileID: 6795585955042363174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WeakPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4647122662407435991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FlippingPivotRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 4647122663633710293}
   - component: {fileID: 4647122663633710290}
   - component: {fileID: 3152248216089235000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
