@@ -1,4 +1,4 @@
-# Xerrada
+# Recerca Cerdanya Talk
 
 A talk I gave at Museu Cerdà about game feel, this is the source code of the project, you can see the PDF presentation [here](https://gerardgascon.com/talks/art_programacio.pdf).
 
